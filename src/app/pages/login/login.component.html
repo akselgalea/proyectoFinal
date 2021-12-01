@@ -1,0 +1,32 @@
+<app-nav></app-nav>
+<div
+  class="container-expand d-flex justify-content-center flex-column align-items-center"
+  style="
+    background-image: url(../../../assets/recursos/fondo4.png);
+    padding: 50px;
+    height: 900px;
+    background-size: contain;
+    "
+>
+  <div class="formu-container">
+    <h1>¡Es hora de aprender jugando!</h1>
+    <main class="form-signin">       
+      <form class="formu">
+        <h1 class="form-tittle">Trivia Sano</h1>
+        <div>
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" placeholder="ejemplo@email.mx">
+        </div>
+        <div>
+          <label for="exampleInputPassword1" class="form-label">Contraseña
+          </label>
+          <input type="password" class="form-control" placeholder="●●●●●●●●●●●●">
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+        <a routerLink="/">¿Olvidaste tu contraseña?</a>
+        <a routerLink="/registro" routerLinkActive="active">Crear cuenta</a>
+      </form>
+    </main>
+  </div>
+</div>
+<app-footer></app-footer>

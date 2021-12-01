@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    color: white;
+    padding: 11.413px 64.6739px;
+    background: #01255b;
+    height: 131.83px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logoPriv {
+      p {
+          margin: 0;
+      }
+
+      a {
+        color: #ffa502;
+        font-family: Made;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+  }
+  
+  .socials {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
+  
+@media (max-width: 600px) {
+    .footer {
+      flex-direction: column;
+      height: auto;
+      gap: 2rem;
+      align-items: center;
+      text-align: center;
+
+      .socials {
+        font-size: 1.5rem;
+        gap: 1.5rem;
+      }
+    }
+}
